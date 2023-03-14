@@ -5,6 +5,7 @@
 
 // Tool
 // -prompt
+// If ...else
 
 // L’utente inserisce due numeri in successione, con due prompt.
 const userNumber = prompt('inserisci un numero')
