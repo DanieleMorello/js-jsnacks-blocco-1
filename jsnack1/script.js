@@ -8,7 +8,12 @@
 
 // L’utente inserisce due numeri in successione, con due prompt.
 const userNumber = prompt('inserisci un numero')
-console.log(userNumber);
+// console.log(userNumber);
 const otherNumber = prompt('inserisci un\' altro numero')
-console.log(otherNumber);
+// console.log(otherNumber);
 // Il software stampa il maggiore.
+if(userNumber > otherNumber) {
+  console.log(userNumber);
+} else {
+  console.log(otherNumber);
+}
