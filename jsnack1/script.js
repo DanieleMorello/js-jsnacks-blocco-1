@@ -14,7 +14,9 @@ const otherNumber = Number(prompt('inserisci un\' altro numero'))
 // console.log(otherNumber)
 // Il software stampa il maggiore.
 if(userNumber > otherNumber) {
-  console.log(userNumber)
+  console.log('userNumber è più grande',userNumber)
+} else if (otherNumber > userNumber) {
+  console.log('otherNumber è più grande', otherNumber)
 } else {
-  console.log(otherNumber)
+  console.log('I 2 numeri sono uguali');
 }
